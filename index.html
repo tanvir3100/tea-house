@@ -145,13 +145,14 @@
     <!-- super client section -->
     <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
       <div>
-        <div class=" bg-gradient-to-r from-[#FF8938] to-[#F00] flex px-16 py-20 justify-center items-center gap-5">
+        <div
+          class=" bg-gradient-to-r from-[#FF8938] to-[#F00] flex flex-col md:flex-col lg:flex-row px-16 py-20 justify-center items-center gap-5">
           <div class="flex-1 text-white space-y-5">
             <h1 class="text-5xl font-extrabold">Meet Our Super Clients</h1>
             <p>There are many variations of passages of Lorem Ipsum <br> available, but the majority have suffered
               alteration <br>
               in
-              some form, by injected humour, or randomised words <br>  which don't look even slightly believable. </p>
+              some form, by injected humour, or randomised words <br> which don't look even slightly believable. </p>
             <button class="btn btn-active">
               Show All
             </button>
@@ -171,7 +172,7 @@
               </div>
             </div>
             <!--current review -->
-            <div class="bg-white z-20 top-40 -left-24 lg:w-[430px] p-10 rounded-lg absolute">
+            <div class="bg-white z-20 top-40 lg:-left-24 lg:w-[430px] p-10 rounded-lg absolute">
               <img class="absolute -left-5 -top-5 border-4 border-white rounded-full bg-white" src="./images/client.png"
                 alt="">
               <p>We are providing the best and suitable home insurance services for the people who are interested to
@@ -196,10 +197,99 @@
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
+      <div class="text-center">
+        <h1 class="text-5xl font-bold">Our Featured Products</h1>
+        <p class="text-base md:max-w-3xl m-auto">There are many variations of passages of Lorem Ipsum available, but the
+          majority have suffered alteration in some form,by injected humour, or randomized words which don't look even
+          slightly believable. </p>
+      </div>
+      <div>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+          <div class="card bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./images/news-1.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body">
+              <p class="text-sm text-gray-500">Feb 05,2027</p>
+              <h2 class="card-title">Collecting 8 points for discount</h2>
+              <p class="text-base">There are many variations of passages of Lorem Ipsum available.</p>
+              <h4 class="font-bold">Learn More</h4>
+            </div>
+          </div>
+          <div class="card bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./images/news-2.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body">
+              <p class="text-sm text-gray-500">Feb 05,2027</p>
+              <h2 class="card-title">Collecting 8 points for discount</h2>
+              <p class="text-base">There are many variations of passages of Lorem Ipsum available.</p>
+              <h4 class="font-bold">Learn More</h4>
+            </div>
+          </div>
+          <div class="card bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./images/news-3.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body">
+              <p class="text-sm text-gray-500">Feb 05,2027</p>
+              <h2 class="card-title">Collecting 8 points for discount</h2>
+              <p class="text-base">There are many variations of passages of Lorem Ipsum available.</p>
+              <h4 class="font-bold">Learn More</h4>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
-  <footer>
-
+  <footer class="px-48 py-10 bg-base-200 text-base-content">
+    <div class="flex justify-between my-24">
+      <img src="./images/cup.png" alt="">
+      <p>
+        <span>Ready to get started?</span>
+        <button class="btn btn-primary">Primary</button>
+      </p>
+    </div>
+    <div class="footer">
+      <div>
+        <span class="footer-title">Services</span> 
+        <a class="link link-hover">Branding</a> 
+        <a class="link link-hover">Design</a> 
+        <a class="link link-hover">Marketing</a> 
+        <a class="link link-hover">Advertisement</a>
+      </div> 
+      <div>
+        <span class="footer-title">Company</span> 
+        <a class="link link-hover">About us</a> 
+        <a class="link link-hover">Contact</a> 
+        <a class="link link-hover">Jobs</a> 
+        <a class="link link-hover">Press kit</a>
+      </div> 
+      <div>
+        <span class="footer-title">Legal</span> 
+        <a class="link link-hover">Terms of use</a> 
+        <a class="link link-hover">Privacy policy</a> 
+        <a class="link link-hover">Cookie policy</a>
+      </div> 
+      <div>
+        <span class="footer-title">Newsletter</span> 
+        <div class="form-control w-80">
+          <label class="label">
+            <span class="label-text">Enter your email address</span>
+          </label> 
+          <div class="relative">
+            <input type="text" placeholder="username@site.com" class="input input-bordered w-full pr-16" /> 
+            <button class="btn btn-primary absolute top-0 right-0 rounded-l-none">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-10 text-center">
+      <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+    </div>
   </footer>
 </body>
 
